@@ -30,11 +30,15 @@ plt.title("scatterplot with colormap")
 plt.colorbar(label="value")
 plt.show()
 
+
+#contour lines
 data=pd.DataFrame(np.random.rand(10,10))
 plt.figure(figsize=(8,6))
 plt.contour(data.values)
 plt.show()
 
+
+#height plots
 from mpl_toolkits.mplot3d import Axes3D
 
 data=pd.DataFrame(np.random.rand(10,10))
